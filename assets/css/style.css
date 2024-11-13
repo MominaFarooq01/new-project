@@ -1,0 +1,288 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.navbar{
+        background-color: #f44336; 
+        font-family: "Lato", sans-serif;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    }
+    .navbar ul{
+        list-style-type: none;
+        margin:0;
+        display: flex;
+        gap: 30px;
+        padding-left: 0;
+        align-items: center;
+    }
+    .navbar {
+        list-style-type: none;
+        margin-top:0px;
+        padding: 0px;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+     }
+     .navbar ul li a:hover{
+        color: black;
+        background-color: #fff;
+    }
+    .navbar ul a {
+      padding: 10px;
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif ;     
+    }
+    .home{
+      color: black !important;
+      background-color: #fff;
+      display: block;
+      outline: 0 !important;
+      margin:0;
+    }
+    .home:hover{
+      color: black;
+      background-color: #dfe4e4;
+    }
+        .head{
+            margin: 0px;
+            height: 420px;
+            width: 100%;
+            background-color:  #f44336;
+            color: #fff;
+            text-align: center;
+        }
+        .intro{
+            margin: 0px;
+            text-align: center;
+           font-size: 56px;
+           font-family: "Segoe UI", Arial, sans-serif;
+           font-weight: 400;
+           padding-top: 120px;
+        }
+        .para{
+            text-align: center;
+            font-size: 20px;
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+        }
+     .button{
+        border: 1px solid black;
+        background-color: black;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 100;
+        font-family: "Lato", sans-serif;
+        height: 40px;
+        max-width:300%;
+        margin: auto;
+     }
+     .button:hover{
+      background-color: #fff;
+      color: black;
+     }
+     .hero{
+      margin-top: 40px;
+      padding-inline: 180px;
+      display: flex; 
+      font-size: 18px;
+      gap: 30px;
+      align-items: center;
+     }
+     .a{
+      font-size: 30px;
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-weight: 350;
+     }
+     .p{
+      font-weight: 297;
+      padding-top: 12px;
+      padding-bottom: 18px;
+      font-size: 15px;
+      font-family: "Lato", sans-serif;
+      line-height: 1.5;
+     }
+     .anchor{
+      color: #f44336;
+      font-size: 130px;
+        
+     }
+     .para1{
+      font-weight: 297;
+      margin-bottom: 30px;
+        color: #676e75;
+        font-size: 12px;
+      font-family: "Lato", sans-serif;
+      line-height: 1.5;
+     }
+     .main{
+      padding-inline: 180px;
+      display: flex; 
+      font-size: 15px;
+      gap: 50px;
+      background-color: #f1f1f1;
+      align-items: center;
+     }
+     .mug{
+        color: #f44336;
+        font-size: 130px;
+     }
+     .b{
+      margin: 0px;
+      height: 200px;
+      width: 100%;
+      background-color: #6e6f6f;
+      color: #fff;
+      font-size: 30px;
+      text-align: center;
+      align-content: center;
+     }
+     .footer{
+      height: 220px;
+      width: 100%;
+      align-items: center;
+      margin-top: 32px;
+     }
+     .icons{
+      gap: 3px;
+      display: flex;
+     padding-top: 32px;
+     padding-bottom: 32px;
+     font-size: 20px;
+     justify-content: center;
+     text-align: center;
+     }
+     .icons a{
+      color: #676e75;
+     }
+     .link a{
+      color: #676e75;
+      font-size: 12px;
+     }
+     .link {
+      text-align: center ;
+      font-family: "Lato", sans-serif;
+      color: #676e75;
+      font-size: 12px;
+     }
+     @media screen and (max-width:768px){
+      .head{
+         width: 100%;
+      }
+      .intro{
+         font-size: 40px;
+      }
+      .para{
+         font-size: 15px;
+      }
+      .button{
+         font-size: 13px;
+      }
+      .hero{
+         gap:30px;
+         margin-top: 0;
+         padding-inline: 80px;
+         align-items: center;
+      }
+      .a{
+         font-size: 25px;
+         font-weight: 400;
+      }
+      .P{
+         font-size: 10px;
+      }
+      .para1{
+         margin-bottom: 30px;
+      }
+      .anchor{
+         padding-top: 0px;
+         font-size: 100px;
+         height: 100px;
+      }
+      .main{
+         align-items: center;
+         gap:30px;
+         padding-top: 0;
+         padding-inline: 80px;
+      }
+      .mug{
+         padding-top: 0px;
+         font-size: 100px;
+         height:100px  
+      }
+      .b{
+         font-size: 18px;
+      }
+      .icons{
+         font-size: 18px;
+      }
+     }
+     @media screen and (max-width:576px){
+      .navbar ul a {
+         font-size: 15px;
+      }
+      .navbar ul{
+         gap: 10px;  
+      }
+      .navbar{
+         width: 100%;
+      }
+      .head{
+         height:300px;
+         width:100%;
+      }
+      .intro{
+         font-size:30px ;
+      }
+      .hero{
+         margin-top: 0;
+         flex-wrap: wrap;
+         justify-content: center;
+         padding-inline: 50px;
+         gap:30px;
+      }
+      .a{
+       font-size: 18px;
+      }
+      .p{
+        font-size: 12px;
+      }
+      .para1{
+         font-size: 12px;
+         margin-bottom: 0px;
+      }
+      .anchor{
+         padding-top: 0;
+         font-size: 80px;
+         height:120px ;
+      }
+      .main{
+         padding-top: 0;
+         flex-wrap:wrap ;
+         padding-inline: 50px;
+         margin-top: 0;
+         gap:0px;
+         padding-bottom: 30px;
+         justify-content: center;
+      }
+      .mug{
+         padding-top: 20px;
+         font-size:80px ;
+         height: 100px;
+      }
+      .b{
+         height: 140px;
+         font-size: 15px;
+      }
+      .icons{
+         font-size: 16px;
+      }
+      .navbar-a{
+         flex-grow: 1;
+      }
+     }
+     
+     
+
+
